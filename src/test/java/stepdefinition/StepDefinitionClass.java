@@ -6,6 +6,9 @@ import io.cucumber.java.en.When;
 
 public class StepDefinitionClass {
 
+	/**
+	 * Added new comment
+	 */
 	@Given("I want to open google")
 	public void i_want_to_open_google() {
 	   System.out.println("opening google");
@@ -21,6 +24,9 @@ public class StepDefinitionClass {
 	   System.out.println("Printing the page title");
 	}
 	
+	/**
+	 * Added new comment
+	 */
 	@Given("open the given url {string}")
 	public void open_the_given_url(String url) {
 	    System.out.println(url);
